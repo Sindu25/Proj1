@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="13" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-30T14:14:07 IST" name="Suite" finished-at="2024-01-30T14:18:21 IST" duration-ms="253822">
+    <groups>
+    </groups>
+    <test started-at="2024-01-30T14:14:07 IST" name="Testchrome" finished-at="2024-01-30T14:15:06 IST" duration-ms="58904">
+      <class name="basepage.base">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:basepage.base@449a4f23]" started-at="2024-01-30T14:14:08 IST" name="setup" finished-at="2024-01-30T14:14:23 IST" duration-ms="15927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="read()[pri:1, instance:basepage.base@449a4f23]" started-at="2024-01-30T14:14:23 IST" name="read" finished-at="2024-01-30T14:14:24 IST" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method signature="search()[pri:2, instance:basepage.base@449a4f23]" started-at="2024-01-30T14:14:24 IST" name="search" finished-at="2024-01-30T14:14:35 IST" duration-ms="11267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="dashboardUrl()[pri:3, instance:basepage.base@449a4f23]" started-at="2024-01-30T14:14:35 IST" name="dashboardUrl" finished-at="2024-01-30T14:14:37 IST" duration-ms="2023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardUrl -->
+        <test-method signature="searchingJobs()[pri:4, instance:basepage.base@449a4f23]" started-at="2024-01-30T14:14:37 IST" name="searchingJobs" finished-at="2024-01-30T14:14:41 IST" duration-ms="3657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchingJobs -->
+        <test-method signature="checkingJobTitle()[pri:5, instance:basepage.base@449a4f23]" started-at="2024-01-30T14:14:41 IST" name="checkingJobTitle" finished-at="2024-01-30T14:14:53 IST" duration-ms="11841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingJobTitle -->
+        <test-method signature="addingJob()[pri:6, instance:basepage.base@449a4f23]" started-at="2024-01-30T14:14:53 IST" name="addingJob" finished-at="2024-01-30T14:15:00 IST" duration-ms="7025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingJob -->
+        <test-method signature="logOut()[pri:7, instance:basepage.base@449a4f23]" started-at="2024-01-30T14:15:00 IST" name="logOut" finished-at="2024-01-30T14:15:05 IST" duration-ms="5172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:basepage.base@449a4f23]" started-at="2024-01-30T14:15:05 IST" name="quit" finished-at="2024-01-30T14:15:06 IST" duration-ms="1537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- basepage.base -->
+    </test> <!-- Testchrome -->
+    <test started-at="2024-01-30T14:14:07 IST" name="Testedge" finished-at="2024-01-30T14:18:21 IST" duration-ms="253822">
+      <class name="basepage.base">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:basepage.base@68c9133c]" started-at="2024-01-30T14:14:08 IST" name="setup" finished-at="2024-01-30T14:14:21 IST" duration-ms="13504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="read()[pri:1, instance:basepage.base@68c9133c]" started-at="2024-01-30T14:14:21 IST" name="read" finished-at="2024-01-30T14:14:24 IST" duration-ms="2391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method signature="search()[pri:2, instance:basepage.base@68c9133c]" started-at="2024-01-30T14:14:24 IST" name="search" finished-at="2024-01-30T14:14:34 IST" duration-ms="10423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="dashboardUrl()[pri:3, instance:basepage.base@68c9133c]" started-at="2024-01-30T14:14:34 IST" name="dashboardUrl" finished-at="2024-01-30T14:14:36 IST" duration-ms="2024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardUrl -->
+        <test-method signature="searchingJobs()[pri:4, instance:basepage.base@68c9133c]" started-at="2024-01-30T14:14:36 IST" name="searchingJobs" finished-at="2024-01-30T14:14:39 IST" duration-ms="3079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchingJobs -->
+        <test-method signature="checkingJobTitle()[pri:5, instance:basepage.base@68c9133c]" started-at="2024-01-30T14:14:39 IST" name="checkingJobTitle" finished-at="2024-01-30T14:14:51 IST" duration-ms="11521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingJobTitle -->
+        <test-method signature="addingJob()[pri:6, instance:basepage.base@68c9133c]" started-at="2024-01-30T14:14:51 IST" name="addingJob" finished-at="2024-01-30T14:14:58 IST" duration-ms="7408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingJob -->
+        <test-method signature="logOut()[pri:7, instance:basepage.base@68c9133c]" started-at="2024-01-30T14:14:58 IST" name="logOut" finished-at="2024-01-30T14:18:00 IST" duration-ms="182184" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a17c17a283f99041ffb68f0a1088662f, findElement {using=xpath, value=//a[normalize-space()='Logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 121.0.2277.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55417}, msedge: {msedgedriverVersion: 121.0.2277.83 (ff4586e3b035..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55417/devtoo..., se:cdpVersion: 121.0.2277.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a17c17a283f99041ffb68f0a1088662f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a17c17a283f99041ffb68f0a1088662f, findElement {using=xpath, value=//a[normalize-space()='Logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 121.0.2277.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55417}, msedge: {msedgedriverVersion: 121.0.2277.83 (ff4586e3b035..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55417/devtoo..., se:cdpVersion: 121.0.2277.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a17c17a283f99041ffb68f0a1088662f
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:410)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:366)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at basepage.base.logOut(base.java:139)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:393)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:basepage.base@68c9133c]" started-at="2024-01-30T14:18:00 IST" name="quit" finished-at="2024-01-30T14:18:21 IST" duration-ms="21037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- basepage.base -->
+    </test> <!-- Testedge -->
+  </suite> <!-- Suite -->
+</testng-results>
